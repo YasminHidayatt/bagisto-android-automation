@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "application",
+            "request": "launch",
+            "mainClass": "com.bagisto.android.automation.application",
+            "projectName": "bagisto-android-automation"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-home<bagisto-android-automation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bagisto.android.automation.appiumTest.home",
+            "projectName": "bagisto-android-automation",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
